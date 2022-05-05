@@ -8,5 +8,12 @@ pipeline {
         }
       }
     }
+    stage('welcome to stage2') {
+      steps{
+        script{
+          sh "echo hi welcome"
+        }
+      }
+    }
   }  
 }
